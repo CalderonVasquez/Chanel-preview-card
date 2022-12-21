@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #F2EAE2;
+    --btn_color: #3D8168;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg);
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #1C232B;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.product-preview__main{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 28px 16px;
+}
+
+.product-preview__image {
+   border-radius: 10px 10px 0 0;
+}
+
+article {
+    width: 100%;
+}
+
+.article__top {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+}
+
+.product-preview__content {
+    margin-top: 0;
+    padding:  1em 2em;
+    
+}
+
+.article__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.438rem;
+    color: #6C7289;
+}
+
+.money_flex {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 19px;
+}
+
+.money__green {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--btn_color);
+}
+
+.money__gray {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none; 
+    color: #fff;
+    background-color: var(--btn_color);
+    padding: 1em 6.5em;
+    border-radius: 8px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #1A4032;
+}
+
+.btn__icon{
+    margin-right: 6px;
+}
+
+.btn__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
