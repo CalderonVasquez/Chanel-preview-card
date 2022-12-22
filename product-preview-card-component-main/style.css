@@ -11,8 +11,7 @@
 
 html,
 body {
-    /* min-height: 100%; */
-    height: auto;
+    min-height: 100%;  
 }
 
 body {
@@ -32,7 +31,6 @@ img {
 h1 {
     margin-top: 0;
     font-family: 'Fraunces';
-    font-weight: 700;
     font-size: 2rem;
     line-height: 2rem;
     color: #1C232B;
@@ -41,16 +39,12 @@ h1 {
 .container{
     width: 95%;
     margin: 0 auto;
-    max-width: 600px;
-    
+    max-width: 600px;   
 }
-
-
 
 .product-preview__main{
     border-radius: 10px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;   
 }
 
 .product-preview__image {
@@ -67,9 +61,7 @@ article {
 
 .article__top {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
     line-height: 15px;
     letter-spacing: 5px;
@@ -77,15 +69,12 @@ article {
 }
 
 .product-preview__content {
-    padding: 1em 2em;
-    
+    padding: 1em 2em;  
 }
 
 .article__text {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-top: -10px;
     line-height: 1.438rem;
     color: #6C7289;
@@ -95,24 +84,20 @@ article {
     display: flex;
     align-items: center;
     gap: 19px;
-    margin-bottom: -10px;
-    margin-top: -20px;
+    margin-bottom: -0.625em;
+    margin-top: -1.25em;
 }
 
 .money__green {
     font-family: 'Fraunces';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 32px;
     color: var(--btn_color);
 }
 
 .money__gray {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
+    font-size: 0.813rem;
     line-height: 23px;
     text-decoration-line: line-through;
     color: #6C7289;
@@ -125,7 +110,6 @@ article {
     background-color: var(--btn_color);
     padding: 1em 5em;
     border-radius: 8px;
-   
 }
 
 .btn:hover,
@@ -134,16 +118,32 @@ article {
 }
 
 .btn__icon{
-    margin-right: 6px;
+    margin-right: 0.375em;
 }
 
 .btn__text {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 17px;
     color: #FFFFFF;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: .19em;
+    font-size: 0.75rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--btn_color);
+    font-size: 0.75rem;
+}
+
+.attribution a:hover,
+.attribution a:focus{
+    color: #1A4032;
 }
 
 @media(min-width: 751px) {
@@ -153,7 +153,7 @@ article {
     .product-preview__desktop {
         width: 100%;
         display: block;
-      
+        border-radius: 10px 0 0 10px;
     }
 
     .row {
@@ -164,6 +164,4 @@ article {
     body{
         padding: 8em 1em;
     }
-
-  
 }
