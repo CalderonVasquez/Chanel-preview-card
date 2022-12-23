@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![/Users/ericmarshall/Desktop/Chanel-preview-card/product-preview-card-component-main/screenshot/screenshot_desktop.png]
+![screenshot_desktop.png]
 
-![/Users/ericmarshall/Desktop/Chanel-preview-card/product-preview-card-component-main/screenshot/screenshot_mobile.png]
+![screenshot_mobile.png]
 
 ### Links
 
