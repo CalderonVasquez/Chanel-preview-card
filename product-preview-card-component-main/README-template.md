@@ -30,6 +30,8 @@ Users should be able to:
 
 ![/Users/ericmarshall/Desktop/Chanel-preview-card/product-preview-card-component-main/screenshot/screenshot_desktop.png]
 
+![/Users/ericmarshall/Desktop/Chanel-preview-card/product-preview-card-component-main/screenshot/screenshot_mobile.png]
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -55,4 +57,4 @@ I learned how to use two images and display either image with a media query.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CalderonVasquez](https://www.frontendmentor.io/profile/CalderonVasquez)
