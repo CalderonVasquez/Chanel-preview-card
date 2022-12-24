@@ -28,9 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-[screenshot_desktop.png]
-
-[screenshot_mobile.png]
+[product-preview-card-component-main/screenshot/screenshot_desktop.png]
+[product-preview-card-component-main/screenshot/screenshot_mobile.png]
 
 ### Links
 
