@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-[product-preview-card-component-main/screenshot/screenshot_desktop.png]
-[product-preview-card-component-main/screenshot/screenshot_mobile.png]
+![ScreenShot-desktop] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/master/product-preview-card-component-main/screenshot/screenshot_desktop.png>)
+
+![ScreenShot-mobile] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/master/product-preview-card-component-main/screenshot/screenshot_mobile.png>)
 
 ### Links
 
