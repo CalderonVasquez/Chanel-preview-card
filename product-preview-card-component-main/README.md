@@ -28,10 +28,6 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShot-desktop] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/master/product-preview-card-component-main/screenshot/screenshot_desktop.png>)
-
-![ScreenShot-mobile] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/master/product-preview-card-component-main/screenshot/screenshot_mobile.png>)
-
 ![ScreenShot-desktop-update] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/0cd5ed08401c7d58db502b6c7e07134bab415d8c/product-preview-card-component-main/screenshot/Screenshot%20Frontend%20Mentor%20Product%20preview%20card%20component.png>)
 
 ### Links
