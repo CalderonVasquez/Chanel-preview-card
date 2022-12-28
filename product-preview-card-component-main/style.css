@@ -19,7 +19,6 @@ body {
     display: grid;
     place-content: center;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
     background-color: var(--bg);
     line-height: 1.5;
     padding: 1.75em 1em;
@@ -50,11 +49,6 @@ h1 {
     max-width: 600px;   
 }
 
-/* .product-preview__main{
-    border-radius: 10px;
-    background-color: #ffffff; 
-    border-radius: 10px;
-} */
 
 .product-preview__main {
     border-radius: 10px;
@@ -119,6 +113,11 @@ article {
     margin-top: -1.25em;
 }
 
+.money_flex{
+    text-decoration: line-through;
+    color:#6C7289;
+}
+
 .money__green {
     font-family: 'Fraunces';
     font-size: 2rem;
@@ -132,7 +131,8 @@ article {
     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden;   
+    overflow: hidden;  
+    
 }
 
 .btn {
@@ -155,7 +155,8 @@ article {
 }
 
 .btn__icon{
-    margin-right: 0.375em;
+    /* margin-right: 0.375em; */
+    width: 16px;
 }
 
 .btn__text {
