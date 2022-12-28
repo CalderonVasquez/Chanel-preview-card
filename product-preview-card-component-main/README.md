@@ -28,7 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShot-desktop-update] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/d61bb6993efba5976e96d560c6ad8a8c4664495f/product-preview-card-component-main/screenshot/Screenshot.png>)
+![ScreenShot-desktop-update] (<https://github.com/CalderonVasquez/Chanel-preview-card/blob/7e9cdfeca84d516597c7f38e67148c4221c94355/product-preview-card-component-main/screenshot/Screenshot.png>)
+
+
 
 ### Links
 
