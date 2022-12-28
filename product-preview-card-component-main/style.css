@@ -11,20 +11,28 @@
 
 html,
 body {
-    min-height: 100%;  
+    height: 100%;  
 }
 
 body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--bg);
+    line-height: 1.5;
     padding: 1.75em 1em;
     max-width: 1440px;
     
 }
 
-img {
-    border: none;
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
     max-width: 100%;
 }
 
@@ -42,17 +50,40 @@ h1 {
     max-width: 600px;   
 }
 
-.product-preview__main{
+/* .product-preview__main{
     border-radius: 10px;
-    background-color: #ffffff;   
+    background-color: #ffffff; 
+    border-radius: 10px;
+} */
+
+.product-preview__main {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #FFFFFF;
+    transition: 0.7s ease;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.7s ease;
 }
 
-.product-preview__image {
-   border-radius: 10px 10px 0 0;
+.product-preview__main > * {
+    flex-basis: 50%;
 }
 
-.product-preview__desktop {
-   display: none;
+picture {
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+picture:hover img {
+    transform: scale(1.3);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.7s ease;
 }
 
 article {
@@ -96,20 +127,26 @@ article {
 }
 
 .money__gray {
-    font-family: 'Montserrat';
-    font-size: 0.813rem;
-    line-height: 23px;
-    text-decoration-line: line-through;
-    color: #6C7289;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;   
 }
 
 .btn {
-    display: inline-block;
-    text-decoration: none; 
-    color: #fff;
-    background-color: var(--btn_color);
-    padding: 1em 5em;
-    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    color: var(--White);
+    padding: 14px 32px;
+    border-radius: 10px;
+    background: var(--btn_color);
+    transition: 0.7s ease;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -146,15 +183,7 @@ article {
     color: #1A4032;
 }
 
-@media(min-width: 751px) {
-    .product-preview__image {
-        display: none;
-    }
-    .product-preview__desktop {
-        width: 100%;
-        display: block;
-        border-radius: 10px 0 0 10px;
-    }
+@media(min-width: 630px) {
 
     .row {
         display: flex;
@@ -164,4 +193,5 @@ article {
     body{
         padding: 8em 1em;
     }
+
 }
