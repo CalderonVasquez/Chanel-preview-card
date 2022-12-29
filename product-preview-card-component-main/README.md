@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/CalderonVasquez/Chanel-preview-card)
-- Live Site URL: [Add live site URL here](https://calderonvasquez.github.io/Chanel-preview-card/product-preview-card-component-main/index.html)
+- Solution URL: ![solution URL](https://github.com/CalderonVasquez/Chanel-preview-card)
+- Live Site URL: ![live site URL](https://calderonvasquez.github.io/Chanel-preview-card/product-preview-card-component-main/index.html)
 
 ## My process
 
